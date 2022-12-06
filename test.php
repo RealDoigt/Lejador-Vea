@@ -1,7 +1,7 @@
 <?php
 	//CLAVEesNoCoSa
 	if (isset($_POST['ParolaSecrete']))
-		if (crypt($_POST['ParolaSecrete'], 'ADSDFDEFAFASDADSSAfdsfgfdgsdergf') === 'ADtaGrr4N1SGM')
+		if (crypt($_POST['ParolaSecrete'], 'ADSDFDEFAFASDADSSAfdsfgfdgsdergf') === '')
 		{
 			session_start();
 			$_SESSION['PermeteLeje'] = 1;
