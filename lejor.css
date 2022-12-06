@@ -1,0 +1,72 @@
+/* Paje leje.htm */
+
+body, #ParolaSecrete, #NomConta  { background-color: rgb(0,0,0); }
+
+#ParolaSecrete, #NomConta, #UsorNova
+{
+	color: rgb(150,170,100);
+	padding: 1%;
+	margin-bottom: .5vh;
+}
+
+#ParolaSecrete, #NomConta
+{
+	width: 25vw;
+	font-size: 2vw;
+	border: 1px solid rgb(150,170,100);
+	display: block;
+}
+
+[action='test.php'] * { margin: auto; }
+
+[action='test.php'] 
+{ 
+	margin-top: 40vh; 
+	display: flex; 
+	flex-direction: column; 
+}
+
+/* Paje lejor.php */
+
+#ContenadorFlex
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+a:first-child { margin-right: 1vw; }
+
+a, [type='submit']
+{
+	text-decoration: none;
+	color: rgba(20,20,20,.9);
+	border: 3px ridge rgba(150,150,150,.5);
+	border-bottom-style: groove;
+	border-right-style: groove;
+	padding: 1%;
+	background-color: rgba(150,150,150,.5);
+}
+
+[type='submit'] { padding: .2%; }
+
+a:hover, [type='submit']:hover { background-color: rgba(150,150,150,.8); }
+a:active, [type='submit']:hover { background-color: rgba(150,150,150,.2); }
+
+.ContenadorUrl { width: 20vw; }
+
+table, h3 { color: rgb(150,150,150); }
+
+.NomMesajor
+{
+	font-weight: bold;
+	font-size: 16pt;
+	color: rgb(220, 200, 0);
+	text-decoration: underline;
+}
+
+.Data 
+{
+	font-style: oblique;
+	font-size: 7pt;
+	color: rgb(255,255,255);
+}
